@@ -1,0 +1,93 @@
+/***** Base Contents *****/
+
+body {
+  background-color: #E8E8E8;
+}
+
+footer {
+  font-family: 'Lora', serif;
+  overflow: auto;
+}
+
+/***** Body *****/
+
+#vision-board {
+  width: 1250px;
+  height: 850px;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background: url('../img/background.png');
+  background-size: cover;
+  text-transform: uppercase;
+  margin: 50px auto;
+}
+
+.small-block {
+  height: 210px;
+  padding: 20px 40px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 70px 40px;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+  width:450px;
+  padding: 35px;
+}
+
+.right {
+  text-align: right;
+}
+
+.light-bg {
+  background: #ffffff;
+}
+
+.dark-bg {
+  background: #3B3B3B;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.highlight {
+  padding: 5px 15px;
+  font-size: 18px;
+  background: #FFF44F;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+h1 span {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+
+strong {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 25px 0 0 0;
+}
